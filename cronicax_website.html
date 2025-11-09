@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Crónicax — Noticias y crónicas</title>
+  <meta name="description" content="Crónicax: noticias locales, crónicas y contenido paranormal. Síguenos en Facebook." />
+  <meta property="og:title" content="Crónicax — Noticias y crónicas" />
+  <meta property="og:description" content="Noticias, crónicas y misterio en Crónicax. Síguenos en Facebook." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.facebook.com/cronicax" />
+  <meta property="og:image" content="logo.png" />
+  <style>
+    :root{--bg:#000000;--card:#111111;--muted:#cccccc;--accent:#ff1b1b}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:#f2f2f2}
+    .container{max-width:980px;margin:30px auto;padding:24px}
+    header{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+    .logo img{width:120px;height:auto;border-radius:8px}
+    h1{margin:0;font-size:24px;color:white}
+    p.lead{color:var(--muted);margin:6px 0 18px}
+    nav{margin-left:auto}
+    nav a{color:var(--muted);text-decoration:none;margin-left:12px;font-size:14px}
+    nav a:hover{color:var(--accent)}
+    .hero{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 0 10px rgba(255,255,255,0.05)}
+    .post{padding:14px;border-radius:10px;background:rgba(255,255,255,0.05);margin-bottom:12px}
+    .post h3{margin:0 0 6px;font-size:16px;color:white}
+    .post p{margin:0;color:var(--muted);font-size:14px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+    .btn:hover{opacity:0.9}
+    .meta{font-size:13px;color:var(--muted);margin-top:8px}
+    footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
+    @media(max-width:880px){.hero{grid-template-columns:1fr}nav{display:none}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo"><img src="logo.png" alt="Logo Crónicax" /></div>
+      <div>
+        <h1>Crónicax</h1>
+        <p class="lead">Crónicas, noticias locales y misterio. Síguenos en Facebook para contenido diario.</p>
+        <div class="meta">Página asociada: <strong>facebook.com/cronicax</strong></div>
+      </div>
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <main class="card">
+        <h2 id="inicio">Últimas publicaciones</h2>
+        <article class="post">
+          <h3>Título de la noticia o crónica</h3>
+          <p>Breve extracto para enganchar al lector. Sustituye este texto por la publicación real de Facebook o tu resumen.</p>
+          <div class="meta">Publicado el 9 de noviembre de 2025 · <a href="#" style="color:var(--muted)">Ver en Facebook</a></div>
+        </article>
+
+        <article class="post">
+          <h3>Crónica: Un suceso en la ciudad</h3>
+          <p>Pequeña descripción. Usa este espacio para entradas destacadas o videos.</p>
+          <div class="meta">Publicado el 2 de noviembre de 2025 · <a href="#" style="color:var(--muted)">Ver en Facebook</a></div>
+        </article>
+
+        <a class="btn" href="https://www.facebook.com/cronicax" target="_blank" rel="noopener">Visítanos en Facebook</a>
+      </main>
+
+      <aside class="card">
+        <h3 id="sobre">Sobre Crónicax</h3>
+        <p class="meta">Crónicax es una página dedicada a contar historias locales, crónicas y sucesos paranormales con un toque periodístico. Puedes usar este espacio para una biografía corta o horario de publicación.</p>
+
+        <div style="height:12px"></div>
+        <h4>Enlace rápido</h4>
+        <p class="meta">Página de Facebook: <a href="https://www.facebook.com/cronicax" target="_blank" rel="noopener" style="color:var(--muted)">facebook.com/cronicax</a></p>
+
+        <div style="height:12px"></div>
+        <h4>Contacto</h4>
+        <p class="meta">Escribe al inbox de la página o manda un correo a: <em>tu-email@ejemplo.com</em></p>
+
+        <div style="height:12px"></div>
+        <h4>Widget de Facebook</h4>
+        <div style="width:100%;height:220px;overflow:hidden;border-radius:8px;background:rgba(255,255,255,0.08);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:14px;padding:10px;text-align:center">Reemplaza este bloque por el plugin de Facebook en producción o deja el enlace a la página.</div>
+      </aside>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h3 id="contacto">Colabora con nosotros</h3>
+      <p class="meta">¿Tienes una historia, fotografía o video? Envíanos la información y la verificamos. También aceptamos ideas para reportajes.</p>
+      <form onsubmit="alert('Formulario de ejemplo — reemplaza por tu integración');return false;" style="margin-top:12px">
+        <label style="display:block;margin-bottom:8px"><input placeholder="Tu nombre" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:inherit" required></label>
+        <label style="display:block;margin-bottom:8px"><input type="email" placeholder="Tu correo" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:inherit" required></label>
+        <label style="display:block;margin-bottom:8px"><textarea placeholder="Cuéntanos la historia" rows="4" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.1);background:transparent;color:inherit" required></textarea></label>
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Crónicax · Hecho con ❤️ - Actualiza este sitio con tu logo y publicaciones.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
